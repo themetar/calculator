@@ -23,11 +23,9 @@ body {
   text-align: center;
 }
 
-.float {
+.button {
   float: left;
   width: 25%;
-}
-.button {
   cursor: default;
   position: relative;
 }
@@ -39,9 +37,9 @@ body {
 
 .button:hover span {
   position: relative;
-  top: -10px;
-  left: -10px;
   box-shadow: 1px 1px 5px 2px rgba(0,0,0,.5);
+  left: -5px;
+  top: -5px;
 }
 
 #clear span {
@@ -75,6 +73,10 @@ body {
 
 .button.digit:hover span {
   background-color: rgba(35,255,100,1);
+}
+
+.button.operator span {
+  background-color: rgba(220,255,10,1);
 }
 
 #display {
