@@ -37,18 +37,23 @@ body {
 
 .button:hover span {
   position: relative;
-  box-shadow: 1px 1px 5px 2px rgba(0,0,0,.5);
-  left: -5px;
-  top: -5px;
+  box-shadow: 8px 8px 10px 3px rgba(0,0,0,.3);
+  left: -8px;
+  top: -8px;
 }
 
 #clear span {
   color: #fff;
-  background-color: #f00;
+  background-color: #dd2f04;
 }
 
 #delete {
   float: right;
+}
+
+#delete span {
+  background-color: #000;
+  color: #fff;
 }
 
 .clearfix{
@@ -61,22 +66,20 @@ body {
   left: 0;
   display: block;
   padding: 20px;
-  border-style: solid;
   border-color: #ccc #666 #333 #aaa;
   transition: all 0.3s;
 }
 
 .button.digit span {
-  background-color: rgba(35,255,100,.5);
-  border-color: #3f9 #0e6 #0b4 #3f8;
-}
-
-.button.digit:hover span {
-  background-color: rgba(35,255,100,1);
+  background-color: #e8b563;
 }
 
 .button.operator span {
-  background-color: rgba(220,255,10,1);
+  background-color: #4e6b5e;
+}
+
+.button.dot span {
+  background-color: #ce8967;
 }
 
 #display {
